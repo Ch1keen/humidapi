@@ -8,6 +8,8 @@ module Api
     end
 
     def show
+      @device_info = Device.find(params[:id])
+      @environment_info = Log.where(device_id: params[:id]).last
       render "show"
     end
 

@@ -1,5 +1,6 @@
 json = {
-    msg: "Hello World"
+    msg: @device_info,
+    env: @environment_info
 }
 
 json
