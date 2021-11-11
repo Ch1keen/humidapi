@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_11_151052) do
+ActiveRecord::Schema.define(version: 2021_11_11_163723) do
 
   create_table "devices", force: :cascade do |t|
     t.string "userid"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2021_11_11_151052) do
     t.float "pm10"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "device_id"
   end
 
 end
