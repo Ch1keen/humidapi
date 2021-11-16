@@ -10,10 +10,6 @@ module Api
       render json: { msg: true }
     end
 
-    def show
-      render "show"
-    end
-
     private
 
     def log_params

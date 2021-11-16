@@ -42,8 +42,6 @@ OO대학교 전자공학과 공학설계과목에서 사용하기 위한 어플�
 
 * `PATCH/PUT /api/devices/:id (devices#update)`
 
-    팬을 켜거나 끈다.
-
 * `DELETE /api/devices/:id (devices#destroy)`
 
     등록된 장비를 제거한다.
