@@ -26,10 +26,6 @@ OO대학교 전자공학과 공학설계과목에서 사용하기 위한 어플�
 
 ### Devices
 
-* `GET /api/devices (devices#index)`
-
-* `GET /api/devices/new (devices#new)`
-
 * `POST /api/devices (devices#create)`
 
     새 장비를 등록한다.
@@ -38,31 +34,15 @@ OO대학교 전자공학과 공학설계과목에서 사용하기 위한 어플�
 
     장비의 정보와 현재 상태(온도, 습도, 미세먼지, 작동 여부)를 반환한다.
 
-* `GET /api/devices/:id/edit (devices#edit)`
-
-* `PATCH/PUT /api/devices/:id (devices#update)`
-
 * `DELETE /api/devices/:id (devices#destroy)`
 
     등록된 장비를 제거한다.
 
 ### logs
 
-* `GET /api/logs (logs#index)`
-
-* `GET /api/logs/new (logs#new)`
-
 * `POST /api/logs (logs#create)`
 
     아두이노로부터 새 로그를 등록한다.
-
-* `GET /api/logs/:id (logs#show)`
-
-* `GET /api/logs/:id/edit (logs#edit)`
-
-* `PATCH/PUT /api/logs/:id (logs#update)`
-
-* `DELETE /api/logs/:id (logs#destroy)`
 
 ### 인증
 
